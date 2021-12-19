@@ -1,0 +1,6 @@
+.vscode
+.gauge
+logs
+target
+reports
+manifest.json

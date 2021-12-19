@@ -1,0 +1,4 @@
+# Open the 'Rocket mortgage' homepage
+
+* When the 'Rocket mortgage' homepage is opened
+* Then the page title contains "Mortgage Calculator"
