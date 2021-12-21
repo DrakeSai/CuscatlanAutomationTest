@@ -4,3 +4,4 @@ logs
 target
 reports
 manifest.json
+*.log

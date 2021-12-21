@@ -1,0 +1,4 @@
+# Open the 'Pokemon showdown' homepage
+
+* When the 'Pokemon showdown' homepage is opened
+* Then the pokemon page title contains "Pokédex"
