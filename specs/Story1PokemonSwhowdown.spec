@@ -1,6 +1,6 @@
 # TC01 Pokemon Showdown validations
 
-## Story 1: This scenario validates the pokemon stats
+## Story 1: This scenario validates the pokemon stats and abilities
 Tags: Pokemon
 
 * Open the 'Pokemon showdown' homepage
