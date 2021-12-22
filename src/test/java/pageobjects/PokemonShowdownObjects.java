@@ -34,4 +34,36 @@ public class PokemonShowdownObjects {
         public WebElement totalStats() {
             return Driver.webDriver.findElement(By.cssSelector(".stats tr:nth-of-type(8) .bst:nth-child(2)"));
         }
+
+        public WebElement HP() {
+            return Driver.webDriver.findElement(By.cssSelector("tr:nth-of-type(2) > .stat"));
+        }
+
+        public WebElement Attack() {
+            return Driver.webDriver.findElement(By.cssSelector("tr:nth-of-type(3) > .stat"));
+        }
+
+        public WebElement Defense() {
+            return Driver.webDriver.findElement(By.cssSelector("tr:nth-of-type(4) > .stat"));
+        }
+
+        public WebElement SpeAttack() {
+            return Driver.webDriver.findElement(By.cssSelector("tr:nth-of-type(5) > .stat"));
+        }
+
+        public WebElement SpeDefense() {
+            return Driver.webDriver.findElement(By.cssSelector("tr:nth-of-type(6) > .stat"));
+        }
+
+        public WebElement Speed() {
+            return Driver.webDriver.findElement(By.cssSelector("tr:nth-of-type(7) > .stat"));
+        }
+
+        public WebElement Ability() {
+            return Driver.webDriver.findElement(By.cssSelector(".imgentry > a:nth-of-type(1)"));
+        }
+
+        public WebElement HiddenAbility() {
+            return Driver.webDriver.findElement(By.cssSelector(".imgentry > a:nth-of-type(2)"));
+        }
 }
